@@ -54,6 +54,7 @@ class Item
 class Cart
 {
     unordered_map <int, Item> items;
+    public:
     void addProduct(Product product)
     {
         if(items.count(product.id)==0)
